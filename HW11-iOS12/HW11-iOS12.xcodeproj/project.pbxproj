@@ -12,18 +12,16 @@
 		9AAFB5EB2B582685009D18A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5EA2B582685009D18A6 /* ViewController.swift */; };
 		9AAFB5F02B582686009D18A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AAFB5EF2B582686009D18A6 /* Assets.xcassets */; };
 		9AAFB5F32B582686009D18A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AAFB5F12B582686009D18A6 /* LaunchScreen.storyboard */; };
-		9AAFB5FF2B58F9BD009D18A6 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5FE2B58F9BD009D18A6 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9AAFB5E32B582685009D18A6 /* HW11-iOS12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW11-iOS12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAFB5E62B582685009D18A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AAFB5E82B582685009D18A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9AAFB5EA2B582685009D18A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		9AAFB5EA2B582685009D18A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AAFB5EF2B582686009D18A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AAFB5F22B582686009D18A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AAFB5F42B582686009D18A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AAFB5FE2B58F9BD009D18A6 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +54,6 @@
 		9AAFB5E52B582685009D18A6 /* HW11-iOS12 */ = {
 			isa = PBXGroup;
 			children = (
-				9AAFB5FD2B58F992009D18A6 /* Extensions */,
 				9AAFB5FA2B582CBB009D18A6 /* App */,
 				9AAFB5FB2B582CE7009D18A6 /* Sources */,
 				9AAFB5FC2B582D13009D18A6 /* Resources */,
@@ -89,14 +86,6 @@
 				9AAFB5F42B582686009D18A6 /* Info.plist */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		9AAFB5FD2B58F992009D18A6 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9AAFB5FE2B58F9BD009D18A6 /* UIView+Extensions.swift */,
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,7 +160,6 @@
 			files = (
 				9AAFB5EB2B582685009D18A6 /* ViewController.swift in Sources */,
 				9AAFB5E72B582685009D18A6 /* AppDelegate.swift in Sources */,
-				9AAFB5FF2B58F9BD009D18A6 /* UIView+Extensions.swift in Sources */,
 				9AAFB5E92B582685009D18A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
